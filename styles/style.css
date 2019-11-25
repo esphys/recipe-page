@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 960px;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+}
+h2 {
+    font-size: 1.5rem;
+}
+li {
+    margin: 0.4rem 0;
+}
+a {
+    color: #c37e00;
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+.titlecard {
+    height: 20rem;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    vertical-align: text-bottom;
+    position: relative;
+    box-shadow: 0 0 3px grey;
+}
+.cardheader {
+    background-color: rgba(0,0,0,0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.row {
+    box-shadow: 0 0 3px grey;
+}
+.ingredients {
+    float: left;
+    width: 35%;
+    background-color: rgba(0,0,0,0.1);
+    padding: 2rem;
+}
+.imageblock {
+    height: 431px;
+    overflow: hidden;
+}
+img {
+    position: relative;
+    left: -40%;
+}
+.recipe {
+    width: 500px;
+    margin: auto;
+}
+ol > li {
+    padding-bottom: 1.5rem;
+}
+.citation {
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+    text-align: right;
+}
